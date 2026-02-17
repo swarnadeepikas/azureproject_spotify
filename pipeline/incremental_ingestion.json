@@ -62,7 +62,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"schema": "dbo",
-							"table": "DimUsers"
+							"table": "DimUser"
 						}
 					}
 				],
