@@ -59,7 +59,11 @@
 				"inputs": [
 					{
 						"referenceName": "AzureSQL",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schema": "dbo",
+							"table": "DimUsers"
+						}
 					}
 				],
 				"outputs": [
