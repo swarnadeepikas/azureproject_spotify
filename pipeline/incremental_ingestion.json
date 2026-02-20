@@ -160,7 +160,7 @@
 							{
 								"name": "cdc",
 								"value": {
-									"value": "@activity('Script').output.resultSets[0].rows[0]",
+									"value": "@activity('Script').output.resultSets[0].rows[0].CDC",
 									"type": "Expression"
 								}
 							}
