@@ -137,8 +137,6 @@
 			{
 				"name": "update_last_cdc",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Script",
@@ -160,7 +158,7 @@
 						"type": "JsonSource",
 						"additionalColumns": {
 							"type": "Expression",
-							"value": "csdffa"
+							"value": "@activity('Script').output.resultSets[0].row[0]"
 						},
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
